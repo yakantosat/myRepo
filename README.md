@@ -9,7 +9,7 @@ location /download {
 
 访问样例
 curl localhost/download
-=========================
+
 /test.txt 32248
 /test1.txt 48264
 /test2.txt 43259
