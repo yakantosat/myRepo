@@ -7,7 +7,7 @@ function download(host, file)
     local tcpsock = tcp()
     local conn, err = tcpsock:connect(host, 80)
     local count = 0
-    tcpsock:send("GET " .. file .. " HTTP/1.1\r\nHost: 10.25.14.174\r\nConnection: closed\r\n\r\n")
+    tcpsock:send("GET " .. file .. " HTTP/1.1\r\nHost: xx.xx.xx.xx\r\nConnection: closed\r\n\r\n")
 
     while true do
         local s, status, partial = receive(tcpsock)
