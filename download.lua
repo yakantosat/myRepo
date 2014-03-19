@@ -57,7 +57,7 @@ end
 
 -- main
 
-local host = "10.25.14.174"
+local host = "xx.xx.xx.xx"
 
 get(host, "/test.txt")
 get(host, "/test1.txt")
