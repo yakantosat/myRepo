@@ -5,9 +5,7 @@
 
 ```
 location /download {
-
     content_by_lua_file 'conf/scripts/download.lua';
-    
 }
 ```
 ===
